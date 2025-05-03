@@ -16,3 +16,32 @@ Click on it so that you can move the slider to better appreciate the results.
 
 ## Contact
 If you have any questions, feel free to contact me at `adriano.ettari@unina.it` or on my LinkedIn page [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriano-ettari-b8741b21b/)
+
+## Development Environment Setup with Poetry
+
+## Panduan Menyiapkan Lingkungan Pengembangan dengan Poetry
+
+Untuk menyiapkan lingkungan pengembangan menggunakan [Poetry](https://python-poetry.org/), ikuti langkah-langkah berikut:
+
+1. **Instal Poetry** (jika belum terpasang):
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+   # atau ikuti panduan resmi: https://python-poetry.org/docs/#installation
+   ```
+
+2. **Instal semua dependensi proyek**:
+   ```bash
+   poetry install
+   ```
+
+3. **Aktifkan virtual environment** (opsional, tapi direkomendasikan):
+   ```bash
+   poetry shell
+   ```
+
+4. **Jalankan skrip atau mulai pengembangan**:
+   ```bash
+   poetry run python nama_script_anda.py
+   ```
+
+Poetry akan secara otomatis membuat dan mengelola virtual environment untuk proyek ini, serta menginstal semua dependensi yang tercantum di `pyproject.toml`.
